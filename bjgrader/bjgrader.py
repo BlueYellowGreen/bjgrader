@@ -100,7 +100,7 @@ def solution(input_data, idx, result_dict):
                 start = time.time()
                 future = executor.submit(solution.solution, input_data)
                 try:
-                    result = future.result(timeout=2)
+                    result = future.result(timeout=10)
                     result = '\033[32m PASS \033[0m' if output_data == result else '\033[31m FAIL \033[0m'
                     result += f'   {time.time()-start:.2f} (s)'
                     results[sample_index-1] = result
