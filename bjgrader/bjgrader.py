@@ -46,7 +46,7 @@ URL = ''
 
 # input_data: sample input
 # idx: 
-def solution(input_data, idx, result_dict):
+def solution(input_data):
     answer = 0
 
     return answer
