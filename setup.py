@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setuptools.setup(
     name="bjgrader",
-    version="0.0.4",
+    version="0.0.5",
     author="Dooho Lee",
     author_email="dhdev5ba@gmail.com",
     url="https://github.com/BlueYellowGreen/bjgrader",

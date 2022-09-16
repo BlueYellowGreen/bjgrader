@@ -41,11 +41,10 @@ def main():
             print('The file already exists.')
             sys.exit()
 
-        file_content = """# Do not modify name of parameter and function ('URL', 'solution', 'input_data', 'idx', result_dict)
+        file_content = """# Do not modify name of parameter and function ('URL', 'solution')
 URL = ''
 
 # input_data: sample input
-# idx: 
 def solution(input_data):
     answer = 0
 
