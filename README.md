@@ -29,11 +29,10 @@ python -m bjgrader -c file_name.py
 파일 생성 명령어를 통해 나온 파일의 템플릿은 아래와 같습니다.
 
 ```bash
-# Do not modify name of parameter and function ('URL', 'solution', 'input_data', 'idx', result_dict)
+# Do not modify name of parameter and function ('URL', 'solution')
 URL = ''
 
 # input_data: sample input
-# idx: 
 def solution(input_datat):
     answer = 0
 
